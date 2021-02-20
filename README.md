@@ -7,14 +7,11 @@
 <p align="center">
 <a href="https://github.com/tiosaad"><img title="Author" src="https://img.shields.io/badge/Author-tiosaad-red.svg?style=for-the-badge&logo=github"></a>
 </p>
-<a href="https://www.codefactor.io/repository/github/tiosaad/BOTV1"><img src="https://www.codefactor.io/repository/github/mhankbarbar/BOTV1/badge" alt="CodeFactor" /></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"</a>
-</p>
 	
 ## Clone this project
 
 ```bash
-> git clone https://github.com/MhankBarBar/termux-wabot
+> git clone https://github.com/tiosaad/BOTV1
 ```
 
 ## Install the dependencies:
