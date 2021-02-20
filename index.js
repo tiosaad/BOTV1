@@ -126,13 +126,13 @@ async function starts() {
 					group: '❌ ESSE COMANDO SO PODE SER DADO EM GRUPO! ❌',
 					ownerG: '❌ ESSE COMANDO SO PODE SER DADO PELO DONO DO GRUPO! ❌',
 					ownerB: '❌  ESSE COMANDO SO PODE SER DADO PELO DONO DO BOT ! ❌',
-					admin: '❌ Perintah ini hanya bisa di gunakan oleh admin group! ❌',
-					Badmin: '❌ Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌'
+					admin: '❌ OS COMANDOS SO PODEM SER DADOS PELOS ADMS DO GRUPO! ❌',
+					Badmin: '❌ ESTS COMANDO SO PODE SER DADO QUANDO O BOT FOR ADM! ❌'
 				}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = [`${setting.ownerNumber}@s.whatsapp.net`] // replace this with your number
+			const ownerNumber = [`${setting.ownerNumber}558197372758@s.whatsapp.net`] // replace this with your number
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
